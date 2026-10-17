@@ -1,0 +1,41 @@
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE
+.vs/
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.user
+*.sln.docstates
+
+# Unreal (quand le projet UE sera ajouté)
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+**/Build/*
+*.VC.db
+*.opendb
+*.opensdf
+*.sdf
+*.sln
+*.xcodeproj
+*.xcworkspace
+
+# Local AI / secrets
+.env
+.env.*
+*.pem
+.ollama/
+
+# Python tooling
+__pycache__/
+.venv/
+venv/
+
+# Canvas Cursor (si copié localement)
+*.canvas.data.json

@@ -1,0 +1,16 @@
+---
+description: Conventions Singe contre Sanglier (GDD + UE5)
+globs:
+alwaysApply: true
+---
+
+# Singe contre Sanglier
+
+- Design source of truth : `Docs/GDD.md`, `Docs/MAPS.md`, `Docs/COMBOS.md`, `Docs/UI_KITS.md`, `Docs/TECH.md`
+- Ne pas changer le design (combos, maps, modes) sans le demander explicitement
+- Futur code UE : modules `SSCore` `SSCombat` `SSTeam` `SSAI` `SSUI`
+- Naming : `SS_`, `DA_`, `WBP_`, `L_`
+- Dégâts / munitions / coûts ADR uniquement via DataAssets — pas de magic numbers gameplay
+- Soft fail QTE > hard fail (sauf ulti Banane d'Or)
+- Prompts d'itération : `Docs/prompts/`
+- MCP UE : une action vérifiable à la fois, commit avant write
